@@ -1,0 +1,273 @@
+body{
+background-color: antiquewhite
+}
+p{
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    font-size: 25px;
+}
+h3{
+    font-size: 22px;
+}
+.a{
+    font-size: 22px;
+    color: blue;
+    text-decoration: underline;
+}
+a:hover{
+    text-decoration: none;
+}
+.cli{
+    background-color: #333;
+    color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 25px;
+}
+
+/* Question List View start */
+.main{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+.list{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 25px;
+}
+.name{
+    width: 400px;
+    border-radius: 50px;
+    margin: auto;
+    padding-bottom: 25px;
+}
+
+
+/*  Question List View End */
+
+/* Question Increament Decreament start CSS */
+.count{
+    font-size: 55px;
+    /* color: #fff; */
+    color: bisque;
+    /* padding-top: 25px; */
+}
+.btn{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+.button{
+    border: 2px solid black;
+    padding: 20px 50px;
+    font-size: 25px;
+    margin: 10px 10px;
+}
+
+/* module - 11 start CSS */
+.container{
+width: 99%;
+border: 1px solid gray;
+margin: 0 auto;
+background-color:#fff;
+}
+/* header start */
+.container .header{
+    width: 100%;
+    padding: 2% 0;
+    border: 1px solid rgb(152, 143, 143);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    /* flex-wrap: wrap; */
+}
+.header .header-left{
+width: 20%;
+margin-left: 30px;
+display: flex;
+flex-direction: row;
+align-items: center;
+align-content: center;
+}
+.header .header-left .img{
+    width:30%;
+}
+.header .header-left .img img{
+    width:80px;
+    height: inherit;
+}
+.header .header-left .choco{
+    margin-left: 10px;
+    width: 70%;
+    font-size: 20px;
+}
+.header .header-center{
+width: 35%;
+padding: 15px;
+margin: 10px;
+border: 1px solid black;
+display: flex;
+font-size: 25px;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+align-content: center;
+flex-wrap: wrap;
+}
+.header .header-center .search input{
+border: 0;
+outline: 0;
+font-size: 20px;
+}
+.header .header-center .symbol-search{
+width: 10%;
+}
+.header .header-center .symbol-search img{
+    width: 20px;
+    height: inherit;
+}
+
+.header .header-right{
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.header .header-right .location select{
+    padding: 10px;
+}
+.header .header-right .menu{
+    display: flex;
+    justify-content: center;
+    margin-left: 8px;
+}
+.header .header-right .menu span{
+    margin: 4px;
+}
+
+.header .header-right .menu span img{
+width: 20px;
+}
+/* header end */
+
+/* navbar start */
+.container .navbar{
+    width: 100%;
+    border: 1px solid rgb(152, 143, 143);
+    padding: 2% 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+.container .navbar .navbar-left{
+    width: 20%;
+    margin-left: 25px;
+    border-radius: 5px;
+    background-color: rgb(84, 146, 84);
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.container .navbar .navbar-left .brow-img img {
+    width: 35px;
+    margin-left: 5px;
+}
+.container .navbar .navbar-left .cate select{
+    padding: 15px 10px;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    background-color: rgb(84, 146, 84);
+}
+.container .navbar .navbar-center span{
+margin: 7px;
+}
+.hot{
+color: rgb(229, 100, 45);
+font-size: 22px;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+a:hover{
+color: green;
+font-size: 22px;
+}
+.container .navbar .navbar-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+.container .navbar .navbar-right .music img{
+    width: 35px;
+}
+.container .navbar .navbar-right .rate{
+margin-right: 25px;
+}
+/* navbar end */
+
+/* section start */
+.container .section{
+    width: 100%;
+}
+.container .section img{
+    width: 100%;
+    height: inherit;
+}
+/* section end */
+
+/* featured start */
+.container .featured{
+    width: 100%;
+    margin: 10px 0;
+}
+.container .featured span{
+    margin: 10px;
+}
+.container .featured .fea{
+    font-size: 25px;
+    font-weight: 600;
+}
+/* featured end */
+
+/* footer start */
+.container .footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.container .footer .box{
+    width: 15%;
+    margin: 10px;
+}
+.container .footer .box img{
+    width: 100%;
+    height: inherit;
+}
+.img{
+margin-left: 3%;
+}
+
+
